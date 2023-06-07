@@ -10,7 +10,7 @@ const themes = {
     },
     vertical: {
       width: "300px",
-      height: "400px",
+      height: "100%",
       icon: {
         x: "83%",
         y: "38",

@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 8080;
 const app = express();
 
 app.get("/", (req, res, next) => {
-  res.send('hello world!');
+  res.redirect("https://github.com/WillDev12/MD-Announcements");
 });
 
 app.use("/api", api);

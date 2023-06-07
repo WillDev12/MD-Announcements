@@ -1,10 +1,10 @@
 const express = require("express");
-const app = express();
-const PORT = process.env.PORT || 8080;
 const api = require("./api");
+const PORT = process.env.PORT || 8080;
+const app = express();
 
 app.get("/", (req, res, next) => {
-  res.redirect("https://github.com/NekoDevSS/MD-Announcements/tree/main");
+  res.send('hello world!')
 });
 
 app.use("/api", api);

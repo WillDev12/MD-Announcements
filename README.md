@@ -48,4 +48,4 @@
   ```
 </div>
 
-<p align="center"><sub><a href="https://github.com/WillDev12/MD-Announcements/edit/master/README.md#markdown-announcement-badges">↩️ Return to top</a></sub></p>
+<p align="center"><sub><a href="https://github.com/WillDev12/MD-Announcements#markdown-announcement-badges">↩️ Return to top</a></sub></p>

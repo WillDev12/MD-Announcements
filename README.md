@@ -9,6 +9,8 @@
 <img src="https://img.shields.io/github/watchers/WillDev12/MD-Announcements?style=for-the-badge">
 </p>
 
+<img src="https://md-announcements.vercel.app/api?type=horizontal&text=Star%20and%20fork!&color=green&animate=fadeIn" width="100%"></img>
+
 <br>
 
 <div align="center">

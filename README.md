@@ -11,7 +11,6 @@
 
 <img src="https://md-announcements.vercel.app/api?type=horizontal&text=Star%20and%20fork!&color=green&animate=fadeIn" width="100%"></img>
 
-<br>
 
 <div align="center">
   

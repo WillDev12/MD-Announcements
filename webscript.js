@@ -51,7 +51,7 @@ function refresh() {
             type = $('#typebox').val();
 
             textv = textv.replaceAll(" ", "%20");
-        var output = `http://localhost:8080/api?type=${type}&theme=${color}&text=${textv}&background=${bg}`;
+        var output = `http://md-announcements.vercel.app/api?type=${type}&theme=${color}&text=${textv}&background=${bg}`;
         $("#outputimg").attr("src", output);
     });
 }

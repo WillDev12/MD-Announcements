@@ -13,6 +13,8 @@
 
 <img src="http://md-announcements.vercel.app/api?type=horizontal&theme=dark&text=MD-Announcements%20is%20a%20repo%20designed%20to%20generate%20you%20div%20like%20announcement%20cards%20for%20Github%20Readmes&background=true" style="width: 100%;"></img>
 
+<p align="center"><sub><a href="https://WillDev12.github.io/MD-Announcements">⬇️ Any of this too hard to understand? Check out our website for an easier experience! ⬇️ </a></sub></p>
+
 <div align="center">
   
   | Result | Input |

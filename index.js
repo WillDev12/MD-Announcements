@@ -51,42 +51,49 @@ class Card {
     outputImg += `<style>div {font: 18px serif;width: 90%; overflow: hidden;padding: 1rem;border-radius: 0.8rem;border: solid 1px;margin: auto;}div {font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";}`;
 
     if (this.theme == "light") {
-      if (this.background) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #FFFFFF; color: #0969DA; border-color: #D8DEE4;}`;
       } else {
         outputImg += `.color {background: none; color: #0969DA; border-color: #D8DEE4;}`;
       }
     } else if (this.theme == "dark") {
-      if ((this.background == false)) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #0D1117; border-color: #21262D; color: #58A6FF;}`;
       } else {
         outputImg += `.color {background: none; border-color: #21262D; color: #58A6FF;}`;
       }
     } else if (this.theme == "red") {
-      if ((this.background == false)) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #181319; border-color: #2E181E; color: #EF4444;}`;
       } else {
         outputImg += `.color {background: none; border-color: #2E181E; color: #EF4444;}`;
       }
     } else if (this.theme == "blue") {
-      if ((this.background == false)) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #121D2F; border-color: #345D96; color: #E6EDF3;}`;
       } else {
         outputImg += `.color {background: none; border-color: #345D96; color: #E6EDF3;}`;
       }
     } else if (this.theme == "teal") {
-      if ((this.background == false)) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #1F2D30; border-color: #365451; color: #6CACA0;}`;
       } else {
         outputImg += `.color {background: none; border-color: #365451; color: #6CACA0;}`;
       }
     } else if (this.theme == "yellow") {
-      if ((this.background == false)) {
+      if ((this.background === "true")) {
         outputImg += `.color {background-color: #262115; border-color: #634711; color: #CE9621;}`;
       } else {
         outputImg += `.color {background: none; border-color: #634711; color: #CE9621;}`;
       }
+    } else if (this.theme == "green") {
+      if ((this.background === "true")) {
+        outputImg += `.color {background-color: #182C25; border-color: #306844; color: #41D274;}`;
+      } else {
+        outputImg += `.color {background: none; border-color: #306844; color: #41D274;}`;
+      }
     }
+
     outputImg += `.vertical {height: 180px; vertical-align: middle; display: table-cell; text-align: center;}</style>`;
 
     if ((this.imgType == "horizontal")) {

@@ -1,0 +1,34 @@
+{
+  "color": {
+    "light": {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#D8DEE4",
+      "titleColor": "#0969DA"
+    },
+    "dark": {
+      "backgroundColor": "#0D1117",
+      "borderColor": "#21262D",
+      "titleColor": "#58A6FF"
+    },
+    "red": {
+      "backgroundColor": "#181319",
+      "borderColor": "#2E181E",
+      "titleColor": "#EF4444"
+    },
+    "blue": {
+      "backgroundColor": "#121D2F",
+      "borderColor": "#345D96",
+      "titleColor": "#E6EDF3"
+    },
+    "teal": {
+      "backgroundColor": "#1F2D30",
+      "borderColor": "#365451",
+      "titleColor": "#6CACA0"
+    },
+    "yellow": {
+      "backgroundColor": "#262115",
+      "borderColor": "#634711",
+      "titleColor": "#CE9621"
+    }
+  }
+}
